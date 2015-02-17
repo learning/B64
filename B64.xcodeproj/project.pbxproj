@@ -14,6 +14,7 @@
 		B0A67FF31A91EA7A00F6506B /* B64Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A67FF21A91EA7A00F6506B /* B64Tests.swift */; };
 		B0A67FFD1A91EB7000F6506B /* DropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A67FFC1A91EB7000F6506B /* DropView.swift */; };
 		B0A67FFF1A91F7E500F6506B /* DropDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A67FFE1A91F7E500F6506B /* DropDelegate.swift */; };
+		B0BF6C7B1A93950400771F4A /* DropWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BF6C7A1A93950400771F4A /* DropWindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		B0A67FF21A91EA7A00F6506B /* B64Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B64Tests.swift; sourceTree = "<group>"; };
 		B0A67FFC1A91EB7000F6506B /* DropView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropView.swift; sourceTree = "<group>"; };
 		B0A67FFE1A91F7E500F6506B /* DropDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDelegate.swift; sourceTree = "<group>"; };
+		B0BF6C7A1A93950400771F4A /* DropWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropWindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				B0A67FDD1A91EA7A00F6506B /* Supporting Files */,
 				B0A67FFC1A91EB7000F6506B /* DropView.swift */,
 				B0A67FFE1A91F7E500F6506B /* DropDelegate.swift */,
+				B0BF6C7A1A93950400771F4A /* DropWindowController.swift */,
 			);
 			path = B64;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0A67FE21A91EA7A00F6506B /* ViewController.swift in Sources */,
+				B0BF6C7B1A93950400771F4A /* DropWindowController.swift in Sources */,
 				B0A67FFF1A91F7E500F6506B /* DropDelegate.swift in Sources */,
 				B0A67FE01A91EA7A00F6506B /* AppDelegate.swift in Sources */,
 				B0A67FFD1A91EB7000F6506B /* DropView.swift in Sources */,
@@ -405,6 +409,7 @@
 				B0A67FF81A91EA7A00F6506B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0A67FF91A91EA7A00F6506B /* Build configuration list for PBXNativeTarget "B64Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				B0A67FFB1A91EA7A00F6506B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
