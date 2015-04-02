@@ -36,8 +36,17 @@ class ViewController: NSViewController, DropDelegate {
     func dragDrop(array:Array<String>) {
         var pboard:NSPasteboard = NSPasteboard.generalPasteboard()
         pboard.clearContents()
+        
+        var manage:NSFileManager = NSFileManager.defaultManager()
 
         for filePath in array {
+            var isDir = ObjCBool(false)
+            manage.fileExistsAtPath(filePath, isDirectory: &isDir)
+
+            if (isDir.boolValue) {
+                continue
+            }
+
             var data:NSData = NSData.dataWithContentsOfMappedFile(filePath) as NSData
             var output:String = data.base64EncodedStringWithOptions(NSDataBase64EncodingOptions.allZeros)
             pboard.writeObjects(["data:image/png;base64," + output])
